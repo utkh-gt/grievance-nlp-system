@@ -122,17 +122,9 @@ http://127.0.0.1:8000/docs
 
 ## Dataset
 
-- **Source:** BBMP (Bruhat Bengaluru Mahanagara Palike) civic complaints dataset
-- **Size:** 126,974 rows, 179 unique complaint types
+- **Source:** BBMP (Bruhat Bengaluru Mahanagara Palike) civic complaints dataset 2025
+- **Size:** 126,974 rows
 - **Columns used:** `Sub Category` (complaint text), `Category` (department)
-
----
-
-## Known Limitations
-
-- The dataset contains only 179 unique complaint types, limiting true generalization
-- Priority labels are rule-based, as BBMP complaints use neutral/factual language not suited for sentiment analysis tools like VADER or TextBlob
-- A production system would require human-annotated sentiment labels and a larger, more diverse dataset
 
 ---
 
