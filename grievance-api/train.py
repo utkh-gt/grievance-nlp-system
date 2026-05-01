@@ -32,8 +32,7 @@ def get_priority(text):
     else:
         return "Low"
 
-# Load dataset — put your CSV file in the grievance-api folder
-df = pd.read_csv('your_file.csv')
+df = pd.read_csv('E:\grievance-nlp-system\grievance-api\BBMP_grievance_data_2025.csv')
 df = df[['Sub Category', 'Category']].rename(columns={
     'Sub Category': 'text',
     'Category': 'department'
