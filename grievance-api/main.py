@@ -60,3 +60,5 @@ def predict(complaint: Complaint):
         "department": department,
         "priority": priority
     }
+
+#Successfully deployed grievance classification API on localhost
